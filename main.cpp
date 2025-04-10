@@ -15,6 +15,7 @@ int main(){
 
 	double runtime_a_star = 0;
 	int distance_a_star = maze1.a_star(runtime_a_star); 
+
 	
 	cout << "A* Pathfinding:" << endl; 
         cout << "Shortest distance: " << distance_a_star << endl; 

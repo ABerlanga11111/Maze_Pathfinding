@@ -13,8 +13,13 @@ TO-DO: Need to implement A* (A-star) pathfinding algorithm
 
 int Maze::a_star(double& runtime){
         int distance = 0; //Will keep track of the shortest distance
+        int row = 0;
+        int col = 1;
 
         // implement A-star pathfinding
+        layout[row][col].space = 'A';
+        cout << layout[row][col].space << endl;
+
 
         return distance;
 }
